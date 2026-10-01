@@ -6,8 +6,8 @@ public class Ejercicio6 {
         double iva = 0.21;
         double total = baseImponible * (1 + iva);
 
-        System.out.printf("Base imponible: %8.2f €%n", baseImponible);
-        System.out.printf("Total con IVA:  %8.2f €%n", total);
+        System.out.printf("Base imponible:", baseImponible);
+        System.out.printf("Total con IVA:", total);
     }
     
 }

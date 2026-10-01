@@ -5,7 +5,7 @@ public class Ejercicio5 {
         double pesetas = 10000.0;
         double euros = pesetas / 166.386;
 
-        System.out.printf("%.2f pesetas son %.2f euros%n", pesetas, euros);
+        System.out.printf(format: "pesetas son ", pesetas, euros);
     
     }
     
