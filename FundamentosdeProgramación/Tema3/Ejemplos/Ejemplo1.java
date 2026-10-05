@@ -1,4 +1,4 @@
-package Fundamentos de Programación.Tema3.Ejemplos;
+package FundamentosdeProgramación.Tema3.Ejemplos;
 
 import java.util.Scanner;
 
@@ -7,6 +7,8 @@ public class Ejemplo1 {
         
         Scanner sc = new Scanner(System.in); //Crea el objeto Scanner
         System.out.println("Dime tu nombre: ");
+        String nombre = sc.nextLine();
+        System.out.println("Hola " + nombre);
     }
     
 }
