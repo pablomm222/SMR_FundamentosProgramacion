@@ -1,8 +1,8 @@
-package FundamentosdeProgramación.Tema3.Ejemplos;
+package Tema3;
 
 import java.util.Scanner;
 
-public class Ejemplo1 {
+public class ejemplo1 {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in); //Crea el objeto Scanner
@@ -12,3 +12,5 @@ public class Ejemplo1 {
     }
     
 }
+    
+
