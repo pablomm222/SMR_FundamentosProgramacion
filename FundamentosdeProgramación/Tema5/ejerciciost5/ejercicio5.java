@@ -17,7 +17,7 @@ public class ejercicio5 {
         }   else{
 
             System.out.println(contrasena + " acceso denegado");
-        }
-    }
-    
+            
+        } sc.close();
+    }  
 }

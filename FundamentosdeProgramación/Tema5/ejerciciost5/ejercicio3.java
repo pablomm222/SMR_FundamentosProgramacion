@@ -17,6 +17,8 @@ public class ejercicio3 {
         }   else {
 
             System.out.println(edadTrabajar + " no tiene edad de trabajar");
+
+            sc.close();
         }
     }
     

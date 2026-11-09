@@ -17,6 +17,8 @@ public class ejercicio1 {
 
             System.out.println(num1 + " es negativo");
 
+
+            sc.close();
         }
 
     }

@@ -17,6 +17,9 @@ public class ejercicio2 {
         }   else{
 
             System.out.println(edad + " no puede entrar");
+
+
+            sc.close();
         }
 
     }
