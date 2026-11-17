@@ -11,6 +11,9 @@ public class ejercicio3 {
 
         double precio = 0;
 
+        System.out.println("Elige la cantidad");
+        int cantidad = sc.nextInt();
+
         switch (opcion) {
             case 'a':
                 precio = 1.2;
@@ -28,7 +31,7 @@ public class ejercicio3 {
                 System.out.println("Opción incorrecta");
         }
 
-        System.out.println("El precio final es " + precio);
+        System.out.println("El precio final es " + precio * cantidad);
     }
     
 }
