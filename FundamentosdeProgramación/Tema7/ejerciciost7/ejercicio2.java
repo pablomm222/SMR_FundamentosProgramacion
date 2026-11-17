@@ -31,7 +31,7 @@ public class ejercicio2 {
                 System.out.println("Otoño");
                 break;
             default:
-                System.out.println("Día no válido");
+                System.out.println("Mes no válido");
         }
     }
     
